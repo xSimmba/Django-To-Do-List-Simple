@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "to-do"
+version = "0.1.0"
+description = "List things to do"
+authors = ["Luka"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
